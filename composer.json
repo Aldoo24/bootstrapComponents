@@ -1,0 +1,11 @@
+{
+    "name": "aldo/bootstrap-components",
+    "autoload": {
+        "psr-4": {
+            "Aldo\\BootstrapComponents\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^10.0"
+    }
+}
