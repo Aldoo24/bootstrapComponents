@@ -5,7 +5,16 @@
             "Aldo\\BootstrapComponents\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aldo\\BootstrapComponents\\BsComponentServiceProvider"
+            ]
+        }
+    },
     "require": {
+        "php": "^8.2",
         "illuminate/support": "^10.0"
-    }
+    },
+    "minimum-stability": "dev"
 }
