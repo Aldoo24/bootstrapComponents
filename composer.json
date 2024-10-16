@@ -8,7 +8,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aldo\\BootstrapComponents\\BsComponentServiceProvider"
+                "Aldo\\BootstrapComponents\\BsComponentsServiceProvider"
             ]
         }
     },
