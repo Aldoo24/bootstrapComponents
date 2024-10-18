@@ -10,7 +10,7 @@
                 <h1 class="modal-title fs-5" id="modalLabel">{{ $title }}</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body overflow-x-auto mw-100">
                 {{ $slot }}
             </div>
             <div class="modal-footer">

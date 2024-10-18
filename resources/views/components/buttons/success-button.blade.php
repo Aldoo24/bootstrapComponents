@@ -1,7 +1,10 @@
-<button type="button"
+<button
     {{
         $attributes->merge([
-            "class" => "btn btn-success"
+            "class" => "btn btn-success",
+            "type" => "button"
         ])
     }}
->{{ $slot }}</button>
+>
+    {{ $slot }}
+</button>
